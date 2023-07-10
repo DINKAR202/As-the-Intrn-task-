@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.for-bg {
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.head-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head-text h1 {
+  /* display: inline-block; */
+  opacity: 0.6;
+}
+
+.for-bg2 {
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+}
+
+.for-slide1 {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  /* float: left; */
+  transition: 1s;
+  overflow: hidden;
+  flex-direction: column;
+}
+.for-slide1 img {
+  height: 100%;
+  width: auto;
+}
+
+.for-slide2 img {
+  height: 100%;
+  width: auto;
+}
+
+.for-slide2 {
+  overflow: hidden;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  width: 0%;
+  transition: 1s;
+  flex-direction: column;
+}
+
+.context-hew h1 {
+  display: inline-block;
+}
+
+.slider-card {
+  width: 100% !important;
+  padding: 40px 0;
+  opacity: 0.6;
+  margin-top: auto;
+  background-color: rgb(71, 84, 101);
+}
+
+/* jshmdgbfv */
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+}
+.card .image-box {
+  height: 200px;
+  width: 350px;
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  transform: translateY(-40%);
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+/* schedule box */
+
+.schedule{
+  position: absolute; 
+  opacity: 0.5;
+  /* left: 30%;
+  top: 30%; */
+  transform: translate(50%, 50%);
+}
